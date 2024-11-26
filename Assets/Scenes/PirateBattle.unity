@@ -655,6 +655,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1427505414 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5976062737647633223, guid: 756fd5b6afec16849acc36f6fbba0bd4, type: 3}
+  m_PrefabInstance: {fileID: 2088607781}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2023662406
 GameObject:
   m_ObjectHideFlags: 0
@@ -752,9 +757,25 @@ PrefabInstance:
       value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 3964334086896107620, guid: 756fd5b6afec16849acc36f6fbba0bd4, type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3964334086896107620, guid: 756fd5b6afec16849acc36f6fbba0bd4, type: 3}
       propertyPath: m_Constraints
       value: 80
       objectReference: {fileID: 0}
+    - target: {fileID: 6717299959097970844, guid: 756fd5b6afec16849acc36f6fbba0bd4, type: 3}
+      propertyPath: Cannon
+      value: 
+      objectReference: {fileID: 1427505414}
+    - target: {fileID: 6717299959097970844, guid: 756fd5b6afec16849acc36f6fbba0bd4, type: 3}
+      propertyPath: CannonRotSpeed
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 6717299959097970844, guid: 756fd5b6afec16849acc36f6fbba0bd4, type: 3}
+      propertyPath: CannonPivotPoint
+      value: 
+      objectReference: {fileID: 1427505414}
     - target: {fileID: 7800948861584327434, guid: 756fd5b6afec16849acc36f6fbba0bd4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

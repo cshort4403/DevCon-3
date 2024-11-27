@@ -7,9 +7,10 @@ public class WaveManager : MonoBehaviour
     public static WaveManager instance;
 
     public float amplitude = 1.0f;
-    public float length = 2.0f;
+    public float length = 20.0f;
     public float speed = 1.0f;
     public float offset = 0.0f;
+    public float frequency = 0.5f;
 
     private void Awake()
     {

@@ -1,18 +1,27 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+[RequireComponent(typeof(MeshFilter))] 
+[RequireComponent(typeof(MeshRenderer))]
 
 public class WaterManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private MeshFilter meshFilter;
+
+    private void Awake()
     {
-        
+        meshFilter = GetComponent<MeshFilter>();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+        Vector3[] verticies  = meshFilter.mesh.vertices;
+        for (int i = 0; i < verticies.Length; ++i)
+        {
+            verticies[i].y = WaveManager.instance.GetWaveHeight(transform.position.x + verticies[i].x);
+        }
+
+        meshFilter.mesh.vertices = verticies;
+        meshFilter.mesh.RecalculateBounds();
     }
 }

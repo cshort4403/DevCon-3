@@ -10,12 +10,6 @@ public class FireBall : MonoBehaviour
     [SerializeField, Tooltip("Amount of Newtons of force.")]
     float fireForce= 17300;
 
-    [SerializeField]
-    Transform ExplosionPoint;
-
-    Rigidbody BallRB;
-    
-
     // Start is called before the first frame update
     void Start()
     {
@@ -25,7 +19,7 @@ public class FireBall : MonoBehaviour
             Debug.LogError($"Script FireBall is attached to something other than a cannon! It has the tag: {tag}");
         }
 
-        if(!Ball.TryGetComponent(out BallRB)) 
+        if(!Ball.TryGetComponent<Rigidbody>(out _)) 
         {
             Debug.LogError("The FireBall script does not have a ball with a rigidbody to fire. Please make sure the cannon is firing something with a rigidbody component.");
         }
@@ -43,9 +37,11 @@ public class FireBall : MonoBehaviour
     /// </summary>
     public void Fire()
     {
-        Ball.transform.SetPositionAndRotation(ExplosionPoint.position + Vector3.right, ExplosionPoint.rotation);
-		Instantiate(Ball);
-        BallRB.AddExplosionForce(fireForce, ExplosionPoint.position, 10, 1000);
+        GameObject newBall = Instantiate(Ball);
+        newBall.transform.SetPositionAndRotation(transform.position, transform.rotation);
+		newBall.transform.position += newBall.transform.forward;
+		newBall.GetComponent<Rigidbody>().AddForce(newBall.transform.forward * fireForce * Time.deltaTime, ForceMode.Impulse);
+        Debug.Log($"Fired cannon with force {newBall.transform.forward * fireForce * Time.deltaTime}");
     }
 
 }

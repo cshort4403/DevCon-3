@@ -992,6 +992,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2229058149804185425, guid: 756fd5b6afec16849acc36f6fbba0bd4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.92387956
+      objectReference: {fileID: 0}
+    - target: {fileID: 2229058149804185425, guid: 756fd5b6afec16849acc36f6fbba0bd4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.38268343
+      objectReference: {fileID: 0}
+    - target: {fileID: 2229058149804185425, guid: 756fd5b6afec16849acc36f6fbba0bd4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2229058149804185425, guid: 756fd5b6afec16849acc36f6fbba0bd4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2229058149804185425, guid: 756fd5b6afec16849acc36f6fbba0bd4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2798392054965725763, guid: 756fd5b6afec16849acc36f6fbba0bd4, type: 3}
       propertyPath: MoveSpeed
       value: 10.2
@@ -1022,7 +1042,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3964334086896107620, guid: 756fd5b6afec16849acc36f6fbba0bd4, type: 3}
       propertyPath: m_Constraints
-      value: 80
+      value: 94
       objectReference: {fileID: 0}
     - target: {fileID: 3964334086896107620, guid: 756fd5b6afec16849acc36f6fbba0bd4, type: 3}
       propertyPath: m_IsKinematic

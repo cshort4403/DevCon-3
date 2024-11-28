@@ -22,6 +22,6 @@ public class WaterManager : MonoBehaviour
         }
 
         meshFilter.mesh.vertices = verticies;
-        meshFilter.mesh.RecalculateBounds();
+        meshFilter.mesh.RecalculateNormals();
     }
 }

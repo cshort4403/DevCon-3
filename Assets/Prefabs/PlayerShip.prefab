@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8750547414485931740}
   - component: {fileID: 2798392054965725763}
   - component: {fileID: 1791135729018018927}
-  - component: {fileID: 6717299959097970844}
+  - component: {fileID: 769631480364783136}
   m_Layer: 0
   m_Name: PlayerShip
   m_TagString: Untagged
@@ -110,7 +110,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShotCooldown: 2
---- !u!114 &6717299959097970844
+--- !u!114 &769631480364783136
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -119,11 +119,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 3400810265405885596}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03a57ba6d6875a94bb9d98599987cafb, type: 3}
+  m_Script: {fileID: 11500000, guid: 6bdb355792ba9c94e9dfc7c13aa0b65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CannonPivotPoint: {fileID: 0}
-  CannonRotSpeed: 100
+  CannonRotSpeed: 60
 --- !u!1 &4503867438726333624
 GameObject:
   m_ObjectHideFlags: 0

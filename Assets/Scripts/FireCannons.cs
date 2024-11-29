@@ -10,11 +10,9 @@ public enum ShotState
     SHOT2 = 2
 }
 
-
 [RequireComponent(typeof(InputManager))]
 public class FireCannons : MonoBehaviour
 {
-
     [SerializeField]
     float ShotCooldown = 2.0f;
 

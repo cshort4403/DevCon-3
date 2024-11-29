@@ -23,12 +23,8 @@ public class MoveCannon : MonoBehaviour
 
 	public void RotateCannon(float RotSpeed)
 	{
-
 		CannonPivotPoint.Rotate(RotSpeed * Time.deltaTime, 0, 0);
-
 		CannonPivotPoint.localEulerAngles = new Vector3(ClampAngle(CannonPivotPoint.localEulerAngles.x, -60, 0), 0, 0);
-
-
 	}
 	
 	private float ClampAngle(float angle, float from, float to)

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class FireBall : MonoBehaviour
@@ -9,6 +10,9 @@ public class FireBall : MonoBehaviour
 
     [SerializeField, Tooltip("Amount of Newtons of force.")]
     float fireForce= 17300;
+
+    [SerializeField]
+    Transform LaunchLocation;
 
     // Start is called before the first frame update
     void Start()
@@ -38,8 +42,7 @@ public class FireBall : MonoBehaviour
     public void Fire()
     {
         GameObject newBall = Instantiate(Ball);
-        newBall.transform.SetPositionAndRotation(transform.position, transform.rotation);
-		newBall.transform.position += newBall.transform.forward;
+        newBall.transform.SetLocalPositionAndRotation(LaunchLocation.position, LaunchLocation.rotation);
 		newBall.GetComponent<Rigidbody>().AddForce(newBall.transform.forward * fireForce * Time.deltaTime, ForceMode.Impulse);
         Debug.Log($"Fired cannon with force {newBall.transform.forward * fireForce * Time.deltaTime}");
     }

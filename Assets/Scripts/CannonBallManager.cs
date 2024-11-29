@@ -24,5 +24,10 @@ public class CannonBallManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+		if (collision.gameObject.CompareTag("Enemy"))
+		{
+			Destroy(collision.gameObject);
+		}
+
 	}
 }

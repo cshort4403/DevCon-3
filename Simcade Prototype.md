@@ -29,4 +29,7 @@ Metric force Units - measured in newtons (N), defined as the force needed to acc
 # Link of Assets 
 ## Assets
 Links for Assets / Textures
+https://assetstore.unity.com/packages/3d/vehicles/sea/poly-angel-mini-pirates-island-267015 
+
+Boats designed and made by Devon Griggs
  

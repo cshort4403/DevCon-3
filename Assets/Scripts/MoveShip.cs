@@ -7,7 +7,7 @@ public class MoveShip : MonoBehaviour
 {
 
     public float MoveSpeed = 10.2778f; //37 km/h in m/s
-    public float TurnSpeed = 60;
+    public float TurnSpeed = 10.2778f;
 
     Rigidbody rb;
     InputManager inputManager;
@@ -33,7 +33,7 @@ public class MoveShip : MonoBehaviour
     {
         if (inputManager.Forward)
         {
-            rb.AddForce(rb.transform.forward * Time.deltaTime * MoveSpeed, ForceMode.Impulse);
+            rb.AddForce(rb.transform.forward * Time.deltaTime * MoveSpeed * 1000, ForceMode.Impulse);
         }
 
 		if (inputManager.TurnLeft) 
@@ -48,7 +48,7 @@ public class MoveShip : MonoBehaviour
 
 		if (inputManager.Stop)
 		{
-			rb.AddForce(-rb.transform.forward * Time.deltaTime * MoveSpeed, ForceMode.Impulse);
+			rb.AddForce(-rb.transform.forward * Time.deltaTime * MoveSpeed * 1000, ForceMode.Impulse);
 		}
 
 	}

@@ -6,7 +6,7 @@ using UnityEngine;
 public class EnemyManager : MonoBehaviour
 {
     [SerializeField]
-    int EnemyHealth = 10;
+    int EnemyHealth = 5;
 
     GameManager GameManager;
 

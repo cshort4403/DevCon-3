@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 
@@ -26,7 +27,10 @@ public class CannonBallManager : MonoBehaviour
         }
 		if (collision.gameObject.CompareTag("Enemy"))
 		{
-			Destroy(collision.gameObject);
+            EnemyManager em;
+            collision.gameObject.TryGetComponent(out em);
+            em.TakeDamage();
+            Destroy(gameObject);
 		}
 
 	}

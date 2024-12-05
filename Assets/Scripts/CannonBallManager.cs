@@ -7,6 +7,9 @@ using UnityEngine;
 
 public class CannonBallManager : MonoBehaviour
 {
+
+    [SerializeField]
+    ParticleSystem SmokePartical;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,8 +33,16 @@ public class CannonBallManager : MonoBehaviour
             EnemyManager em;
             collision.gameObject.TryGetComponent(out em);
             em.TakeDamage();
+            SmokePartical.transform.position = gameObject.transform.position;
+            SmokePartical.Play();
             Destroy(gameObject);
 		}
-
-	}
+        if(collision.gameObject.CompareTag("Player"))
+        {
+            SmokePartical.transform.position = gameObject.transform.position;
+            SmokePartical.Play();
+            Destroy(gameObject);
+        }
+     
+    }
 }

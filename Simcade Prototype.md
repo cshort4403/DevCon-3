@@ -26,7 +26,7 @@ Water – tutorial - https://www.youtube.com/watch?v=eL_zHQEju8s
 
 Metric force Units - measured in newtons (N), defined as the force needed to accelerate 1 kilogram of mass by 1 meter per second squared (1 N = 1 kg·m/s²). 
 
-# Link of Assets and tutorials
+# Link of Assets 
 ## Assets
 Links for Assets / Textures
  

@@ -55,7 +55,13 @@ Play-Tester 2
 # Link of Assets 
 ## Assets
 Links for Assets / Textures
+
+https://assetstore.unity.com/packages/vfx/particles/fire-explosions/hq-explosions-pack-free-263326
+(explosion asset)
+
 https://assetstore.unity.com/packages/3d/vehicles/sea/poly-angel-mini-pirates-island-267015 
+(Island Asset's)
 
 Boats designed and made by Devon Griggs
+
  

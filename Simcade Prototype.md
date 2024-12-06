@@ -37,6 +37,7 @@ Questions:
 5) Do you think waves of enemies that are easy to take out would be better, or just one enemy that is difficult to take out? 
 
 Responses: 
+
 Play-Tester 1
 1) The cannons felt like they shot correctly, they felt good to shoot. but the key bind was very awkward. For raising and lowering it I'd say either Q & E or Up and Down arrows would be better.  
 

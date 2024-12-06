@@ -4,7 +4,8 @@ You are a pirate ship in the middle of the ocean sailing around islands and defe
 
 ### Objective Statement
 
-### Design Ratioale / Mechanics
+
+### Design Rationale / Mechanics
 Your ship, a small ship in the middle of the ocean, has enemy ships surrounding it where they come in waves/rounds and attacking. When you beat one wave, the next wave will come in, but the attack is even harder. 
 
 If you survive the attack of two (2) waves of ships, you will receive an extra life or full health. 

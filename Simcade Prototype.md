@@ -2,18 +2,16 @@
 ## Overview 
 You are a pirate ship in the middle of the ocean sailing around islands and defending yourself from other ships.
 
-### What is our Mechanic
+### Objective Statement
+
+### Design Ratioale / Mechanics
 Your ship, a small ship in the middle of the ocean, has enemy ships surrounding it where they come in waves/rounds and attacking. When you beat one wave, the next wave will come in, but the attack is even harder. 
 
 If you survive the attack of two (2) waves of ships, you will receive an extra life or full health. 
 
 Points counter for when you destroy enemy ships 
 
-You control the ship (Ship is the player). You are not controlling a player on the ship. 
-
-### Design Objective Statement
-
-​
+You control the ship (Ship is the player). You are not controlling a player on the ship. ​
 
 ### Metric Research and References
 Physics elements:  

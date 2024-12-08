@@ -3,6 +3,7 @@
 You are a pirate ship in the middle of the ocean sailing around islands and defending yourself from other ships.
 
 ### Objective Statement
+How to effectively use the Unity game physics to have a pirate ship float in water and have cannons fire off the ship at other enemy ships. 
 
 
 ### Design Rationale / Mechanics

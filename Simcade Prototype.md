@@ -17,7 +17,6 @@ You control the ship (Ship is the player). You are not controlling a player on t
 
 ### Metric Research and References
 Physics elements:  
-
 Cannon - (A cannon mounted on a pirate ship fires a cannonball at 125 m/s horizontally, at a height of 17.5 m above the ocean surface.  
 
 Water – tutorial - https://www.youtube.com/watch?v=eL_zHQEju8s 

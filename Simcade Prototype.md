@@ -3,7 +3,7 @@
 You are a pirate ship in the middle of the ocean sailing around islands and defending yourself from other ships.
 
 ### Objective Statement
-How to effectively use the Unity game physics to have a pirate ship float in water and have cannons rotate and fire at enemy ships. 
+How to effectively use the Unity game physics to have a pirate ship float in water and have cannons rotate and fire at enemy ships at various angles. 
 
 ### Design Rationale / Mechanics
 Your ship, a small ship in the middle of the ocean, has enemy ships surrounding it where they come in waves/rounds and attacking. When you beat one wave, the next wave will come in, but the attack is even harder. 

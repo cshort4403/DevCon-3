@@ -18,13 +18,14 @@ You control the ship (Ship is the player). You are not controlling a player on t
 ### Metric Research and References
 Physics elements:  
 
-Cannon - (A cannon mounted on a pirate ship fires a cannonball at 125 m/s horizontally, at a height of 17.5 m above the ocean surface. 
-
-Fire  
+Cannon - (A cannon mounted on a pirate ship fires a cannonball at 125 m/s horizontally, at a height of 17.5 m above the ocean surface.  
 
 Water – tutorial - https://www.youtube.com/watch?v=eL_zHQEju8s 
 
 Metric force Units - measured in newtons (N), defined as the force needed to accelerate 1 kilogram of mass by 1 meter per second squared (1 N = 1 kg·m/s²). 
+
+The Sloop was a favorable ship for pirates and smugglers alike. Her size could be as large as 100 tons. They ranged from 35' to 65' long (11-20m long) and had 3 decks - the surface deck, the hold, and the bilge. This relatively small vessel could carry around 75 (up to 150) pirates and 14 cannons on the surface deck.
+The cannon fires with 17300 newtons of force, which is the average fire force of a cannon.
 
 ### Play Test Feedback 
 

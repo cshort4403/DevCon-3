@@ -46,8 +46,8 @@ public class InputManager : MonoBehaviour
         //
         Shoot = Input.GetKeyDown(KeyCode.Space);
 
-        AngleUp = Input.GetKey(KeyCode.Z) || Input.GetMouseButtonDown(0);
-        AngleDown = Input.GetKey(KeyCode.X) || Input.GetMouseButtonDown(1);
+        AngleUp = Input.GetKey(KeyCode.Z) || Input.GetMouseButtonDown(0) || Input.GetKey(KeyCode.Q);
+        AngleDown = Input.GetKey(KeyCode.X) || Input.GetMouseButtonDown(1) || Input.GetKey(KeyCode.E);
 
 	}
 }

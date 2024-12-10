@@ -3,15 +3,14 @@
 You are a pirate ship in the middle of the ocean sailing around islands and defending yourself from other ships.
 
 ### Objective Statement
-How to effectively use the Unity game physics to have a pirate ship float in water and have cannons fire off the ship at other enemy ships. 
-
+How to effectively use the Unity game physics to have a pirate ship float in water and have cannons rotate and fire at enemy ships. 
 
 ### Design Rationale / Mechanics
 Your ship, a small ship in the middle of the ocean, has enemy ships surrounding it where they come in waves/rounds and attacking. When you beat one wave, the next wave will come in, but the attack is even harder. 
 
 If you survive the attack of two (2) waves of ships, you will receive an extra life or full health. 
 
-Points counter for when you destroy enemy ships 
+Points counter for when you destroy enemy ships.  
 
 You control the ship (Ship is the player). You are not controlling a player on the ship. ​
 
@@ -42,16 +41,16 @@ Responses:
 Play-Tester 1
 1) The cannons felt like they shot correctly, they felt good to shoot. but the key bind was very awkward. For raising and lowering it I'd say either Q & E or Up and Down arrows would be better.  
 
-2) The water movement adds to the experience, but making the initial acceleration a little faster so when you add enemies you have time to escape would be beneficial  
+2) The water movement adds to the experience, but making the initial acceleration a little faster so when you add enemies you have time to escape would be beneficial.  
 
-3) I think a horde mode would be the cooler of the two if I had to pick one 
+3) I think a horde mode would be the cooler of the two if I had to pick one.
 
 Play-Tester 2 
-1) The cannons were moving and shooting correctly and worked as intended! my only concern would be is at first i didn't know what the z/x controls changed the angle of since the camera is a bit far from the boat & the cannons appeared to be tiny so i couldn't tell at first  
+1) The cannons were moving and shooting correctly and worked as intended! My only concern would be is at first I didn't know what the z/x controls changed the angle of since the camera is a bit far from the boat & the cannons appeared to be tiny so I couldn't tell at first.  
 
-2) The water definitely added to the experience! I loved how you guys added this realistic aspect to the game of the waves moving  
+2) The water definitely added to the experience! I loved how you guys added this realistic aspect to the game of the waves moving.  
 
-3) I think it would be interesting to take out one difficult enemy with a comically large health bar lol 
+3) I think it would be interesting to take out one difficult enemy with a comically large health bar lol. 
 
 # Link of Assets 
 ## Assets
@@ -63,6 +62,4 @@ https://assetstore.unity.com/packages/vfx/particles/fire-explosions/hq-explosion
 https://assetstore.unity.com/packages/3d/vehicles/sea/poly-angel-mini-pirates-island-267015 
 (Island Asset's)
 
-Boats designed and made by Devon Griggs
-
- 
+Boat mesh designed and made by Devon Griggs
